@@ -4,7 +4,7 @@ var outputdiv = document.querySelector("#output");
 
 // outputdiv.innerText = "Nishtha"
 
-var serverUrl = "	https://api.funtranslations.com/translate/minion.json";
+var serverUrl = "https://api.funtranslations.com/translate/minion.json";
 
 function getServerURL(text) {
     return serverUrl + "?text=" + text;
