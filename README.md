@@ -5,7 +5,7 @@ I have used api [Minion api](https://funtranslations.com/) and fetch data throug
 
 Here is the [Demo](https://bananatalk-js-app.netlify.app/) of the app.
 
- #Technologies used:
+ # Technologies used:
   1. Html
   2. Css
   3. javascript
