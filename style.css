@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+* {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    line-height: 15vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    word-spacing: 20px;
+}
+
+.txt-input {
+    margin-top: 5vh;
+    border: 2px solid var(--border-color);
+    height: 20vh;
+    width: 70%;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border: 2px solid yellow
+}
+
+#btn-translator {
+    background-color: transparent;
+    border: 1px solid #ffef00;
+    box-sizing: border-box;
+    color:  black;
+    font-family: "Avenir Next LT W01 Bold", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 16px 23px;
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+#btn-translator:hover,
+#btn-translator:active {
+  outline: 0;
+}
+
+#btn-translator:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  #btn-translator:before {
+    background-color: #ffef00;
+    content: "";
+    height: calc(100% + 3px);
+    position: absolute;
+    right: -7px;
+    top: -9px;
+    transition: background-color 300ms ease-in;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+  #btn-translator:hover:before {
+    background-color:  #ffef00;
+  }
+  
+  @media (min-width: 768px) {
+    #btn-translator {
+      padding: 16px 32px;
+    }
+  }
+
+#output {
+    margin-top: 5vh;
+    border: 2px solid yellow;
+    height: 20vh;
+    width: 70%;
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+footer{
+    margin-top: 5vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    line-height: 5vh;
+    text-align: center;
+    
+}
+
+img{
+    margin-top: 5vh;
+    height: 18vh;
+    width: 20vh;
+}
