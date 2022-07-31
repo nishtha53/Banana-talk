@@ -13,4 +13,3 @@ Here is the [Demo](https://bananatalk-js-app.netlify.app/) of the app.
 
 Attach screenshot is layout of app :
 
-<img title="a title" alt="Alt text" src="https://drive.google.com/file/d/1uziOQ5Ot-e4gDiItXVSOYiPjApCbuQz8/view?usp=sharing">
