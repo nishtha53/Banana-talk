@@ -5,12 +5,12 @@ I have used api [Minion api](https://funtranslations.com/) and fetch data throug
 
 Here is the [Demo](https://bananatalk-js-app.netlify.app/) of the app.
 
-#Technologies used:
- 1. Html
- 2. Css
- 3. javascript
+ #Technologies used:
+  1. Html
+  2. Css
+  3. javascript
  
 
 Attach screenshot is layout of app :
 
-[![banana app](https://drive.google.com/file/d/1uziOQ5Ot-e4gDiItXVSOYiPjApCbuQz8/view?usp=sharing)]
+![Banana app](https://drive.google.com/file/d/1uziOQ5Ot-e4gDiItXVSOYiPjApCbuQz8/view?usp=sharing)
